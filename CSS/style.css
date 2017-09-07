@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+/*Header*/
+.hBody{
+    position: fixed;
+    width: 100%;
+    border: solid black 1px;
+    right: 0;
+    left: 0;
+}
+.flex{
+    display: flex;
+}
+/*Navigation Bar*/
+.navBar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+.tabBar{
+    position: relative;
+    height: 100%;
+    border: solid blue 3px;
+}
+.linkTab{
+    height: 100%;
+    border: solid blue 3px;
+}
+.blueB
