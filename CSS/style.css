@@ -31,8 +31,12 @@ body{
 .linkTab{
     height: 100%;
     border: solid blue 3px;
-    flex-grow: 1;
+    flex-grow: 2;
 }
 .imgSeparator{
 
+}
+.logo{
+    height: 100%;
+    width: 10%;
 }
