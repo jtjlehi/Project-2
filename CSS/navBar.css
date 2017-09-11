@@ -1,0 +1,21 @@
+.tabBar{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.tabBar{
+    border: solid blue 3px;
+}
+.linkBar{
+    display: flex;
+    width: 50%;
+}
+.linkTab{
+    height: 100%;
+    border: solid blue 3px;
+    flex-grow: 2;
+}
+.logo{
+    height: 100%;
+    width: 10%;
+}
