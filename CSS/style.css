@@ -1,10 +1,13 @@
 body{
     margin: 0;
 }
+.centerElement{
+    margin: 0 auto;
+    width: 80%;
+}
 /*Header*/
 .hBody{
     position: fixed;
-    width: 100%;
     border: solid black 1px;
     right: 0;
     left: 0;
@@ -13,20 +16,22 @@ body{
     display: flex;
 }
 /*Navigation Bar*/
-.navBar {
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 100%;
-}
 .tabBar{
     position: relative;
-    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.tabBar{
     border: solid blue 3px;
+}
+.linkBar{
+    display: flex;
+    width: 50%;
 }
 .linkTab{
     height: 100%;
     border: solid blue 3px;
+    flex-grow: 1;
 }
 .imgSeparator{
 
