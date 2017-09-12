@@ -1,5 +1,11 @@
 body{
     margin: 0;
+    height: 100%;
+    width: 100%;
+}
+.body{
+    height: 100%;
+    width: 100%;
 }
 .centerElement{
     margin: 0 auto;
@@ -15,6 +21,19 @@ body{
 .flex{
     display: flex;
 }
+/*Content Body*/
+.contentBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 100%;
+}
 .imgSeparator{
 
+}
+.infoBar{
+    background-color: #34091b;
+    width: 100%;
+    height: 12.5%;
 }
