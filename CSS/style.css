@@ -2,7 +2,7 @@ body{
     margin: 0;
     height: 100%;
     width: 100%;
-    background-color: #f1e0b2;
+    background-color: #dadfea;
 }
 .content{
     height: 100%;
@@ -33,14 +33,31 @@ body{
 .imgSeparator{
     height: 200px;
 }
+/*info Bar*/
 .infoBar{
-    background-color: #34091b;
+    background-color: #662e22;
     width: 100%;
     height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
-@media only screen and (max-width: 800) {
+.landingBtn{
+    background-color: #662e22;
+    border: solid 1px #243459;
+    border-radius: 6px;
+    padding: 4px 10px;
+    margin-bottom: 10px;
+}
+.landingBtn a{
+    color: #dadfea;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+}
+@media only screen and (max-width: 800px) {
     
 }
-@media only screen and (max-width: 650) {
+@media only screen and (max-width: 650px) {
 
 }
