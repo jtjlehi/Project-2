@@ -33,5 +33,7 @@ body{
 }
 .hTitle h1{
     font-family: 'Oswald', sans-serif;
-    color: #5E8C12;
+    color: #193441;
+    margin: 20px 10px;
+    font-size: 60px;
 }
