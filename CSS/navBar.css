@@ -3,13 +3,12 @@
     display: flex;
     justify-content: space-between;
     background-color: #3E606F;
-}
-.tabBar{
     border: solid 1px #193441;
+    height: 50px;
 }
 .linkBar{
     display: flex;
-    width: 75%;
+    width: 80%;
     justify-content: space-between;
 }
 .onSite{
@@ -26,7 +25,7 @@
 .linkTab a, .linkTab a:hover, .linkTab a:visited, .linkTab{
     color: #FCFFF5;
     text-decoration: none;
-    font-family: Oswald, sans-serif;
+    font-family: OswaldLight, sans-serif;
     font-size: 26px;
 }
 .logo{
