@@ -1,0 +1,34 @@
+.contentBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 100%;
+}
+.imgSeparator{
+    height: 200px;
+}
+/*info Bar*/
+.infoBar{
+    background-color: #662e22;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    border-radius: 2px;
+    justify-content: center;
+    align-items: flex-end;
+}
+.landingBtn{
+    background-color: #662e22;
+    border: solid 1px #243459;
+    border-radius: 6px;
+    padding: 4px 10px;
+    margin-bottom: 10px;
+}
+.landingBtn a{
+    color: #dadfea;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    font-family: Roboto, sans-serif;
+}
