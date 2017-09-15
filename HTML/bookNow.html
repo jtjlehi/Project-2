@@ -36,23 +36,23 @@
 
         </div>
     </header>
-    <div class="centerElement">
+    <div class="centerElement formBody">
         <header class="bookHeader">
-            <h2 class="bookHead">Book Your Appointment</h2>
+            <h2>Book Your Appointment</h2>
         </header>
         <form class="bookForm">
             <div class="bookAbout">
-                <div class="firstNameForm">
+                <div class="aboutForm">
                     <label for="bookFirstName">First Name</label>
-                    <input name="bookLastName" id="bookFirstName">
+                    <input type="text" name="bookLastName" id="bookFirstName" placeholder="First Name" required>
                 </div>
-                <div class="lastNameForm">
+                <div class="aboutForm">
                     <label for="bookLastName">Last Name</label>
-                    <input name="bookLastName" id="bookLastName">
+                    <input type="text" name="bookLastName" id="bookLastName" placeholder="Last Name" required>
                 </div>
-                <div class="emailForm">
+                <div class="aboutForm">
                     <label for="bookEmail">Email</label>
-                    <input name="bookEmail" id="bookEmail">
+                    <input type="email" name="bookEmail" id="bookEmail" placeholder="Email" required>
                 </div>
             </div>
             <div class="bookApp">
@@ -60,28 +60,38 @@
                     <div class="appMassage">
                         <label for="massage">Massage</label>
                         <input type="radio" name="appType" id="massage">
+                        <div class="subMassage">
+                            <div class="oneHourApp">
+                                <label for="oneHour">60 minute</label>
+                                <input type="radio" name="subType" id="oneHour">
+                            </div>
+                            <div class="halfHourApp">
+                                <label for="halfHour">30 minute</label>
+                                <input type="radio" name="subType" id="halfHour">
+                            </div>
+                            <div class="handFootApp">
+                                <label for="handFoot">Hand and Foot</label>
+                                <input type="radio" name="subType" id="handFoot">
+                            </div>
+                        </div>
                     </div>
                     <div class="appPedissage">
                         <label for="pedissage">Pedissage</label>
                         <input type="radio" name="appType" id="pedissage">
                     </div>
                 </div>
-                <div class="subMassage">
-                    <div class="oneHourApp">
-                        <label for="oneHour">60 minute</label>
-                        <input type="radio" name="appType" id="oneHour">
+                <div class="bookTime">
+                    <div class="dayInput">
+                        <label for="dayChooser">Day</label>
+                        <input type="date" name="date" id="dayChooser">
                     </div>
-                    <div class="halfHourApp">
-                        <label for="halfHour">30 minute</label>
-                        <input type="radio" name="appType" id="halfHour">
-                    </div>
-                    <div class="handFootApp">
-                        <label for="handFoot">Hand and Foot</label>
-                        <input type="radio" name="appType" id="handFoot">
+                    <div class="timeInput">
+                        <label for="timeChooser">Time</label>
+                        <input type="time" name="time" id="timeChooser">
                     </div>
                 </div>
-                <div class="bookTime">
-                    <div></div>
+                <div class="submit">
+                    <input type="submit">
                 </div>
             </div>
         </form>

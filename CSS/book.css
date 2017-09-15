@@ -2,3 +2,55 @@
     margin: auto;
     text-align: center;
 }
+.bookHeader h2{
+    font-family: OswaldLight, sans-serif;
+    font-size: 35px;
+    color: #193441;
+    border-bottom: solid 1px #193441;
+    background-color: #D1DBBD;
+}
+.formBody{
+    background-color: #91AA9D;
+}
+.bookForm{
+    font-family: Roboto, sans-serif;
+}
+.bookAbout{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    background-color: #FCFFF5;
+    color: #193441;
+    font-family: Roboto, sans-serif;
+    padding: 4px;
+    margin-bottom: 6px;
+    border: none;
+    border-radius: 2px;
+    font-size: 16px;
+}
+input[type="text"]:focus, input[type="email"]:focus{
+    box-shadow: 0 0 0 1px #193441;
+    outline: none;
+}
+.aboutForm{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 50%;
+}
+.appType{
+    display: flex;
+    justify-content: space-around;
+}
+input[type=radio]:focus{
+    background-color: #193441;
+}
+.bookTime{
+    display: flex;
+    justify-content: space-around;
+}
+.submit{
+    display: flex;
+    justify-content: space-around;
+}
