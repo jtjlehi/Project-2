@@ -6,8 +6,8 @@
     height: 100%;
 }
 /*info Bar*/
-.imgSeparator{
-    height: 200px;
+.imgSeparator img{
+    width: 100%;
 }
 .infoBar{
     background-color: #91AA9D;

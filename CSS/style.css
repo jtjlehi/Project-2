@@ -31,9 +31,15 @@ body{
     right: 0;
     left: 0;
 }
+.hTitle{
+    background-image: url("../images/babyMassage.jpeg");
+    background-size: cover;
+    padding: 20px 10px;
+    height: 350px;
+}
 .hTitle h1{
     font-family: 'Oswald', sans-serif;
     color: #193441;
-    margin: 20px 10px;
     font-size: 60px;
+    margin: 0;
 }
