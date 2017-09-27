@@ -1,9 +1,11 @@
 //css links
 @import "book.css";
 @import "Content.css";
-@import "navBar.css";
+//@import "navBar.css";
 @import "style.css";
+//variables link
 @import "variables";
+//over all styling
 body {
   margin: 0;
   height: 100%;
@@ -12,10 +14,11 @@ body {
   .content{
     height: 100%;
     width: 100%;
-    .centerElement{
-      margin: 0 auto;
-      width: 80%;
-    }
   }
 }
+a {
+  text-decoration: none;
+}
+//SASS links
 @import "header";
+@import "navigation";

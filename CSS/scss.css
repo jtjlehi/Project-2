@@ -1,6 +1,5 @@
 @import url(book.css);
 @import url(Content.css);
-@import url(navBar.css);
 @import url(style.css);
 @font-face {
   font-family: 'Oswald';
@@ -19,11 +18,13 @@ body {
   body .content {
     height: 100%;
     width: 100%; }
-    body .content .centerElement {
-      margin: 0 auto;
-      width: 80%; }
+
+a {
+  text-decoration: none; }
 
 .hBody {
+  margin: 0 auto;
+  width: 80%;
   position: relative;
   border: solid #193441 1px;
   right: 0;
@@ -38,5 +39,39 @@ body {
       color: #193441;
       font-size: 60px;
       margin: 0; }
+
+.tabBar {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: none;
+  background-color: #3E606F;
+  border: solid 1px #193441;
+  height: 50px; }
+  .tabBar .logo {
+    height: 100%;
+    width: 10%; }
+  .tabBar .linkBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    overflow: hidden; }
+    .tabBar .linkBar .linkTab {
+      height: 100%;
+      width: 20%;
+      border-left: 1px solid #193441;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #FCFFF5;
+      font-family: "OswaldLight", sans-serif;
+      font-size: 26px;
+      text-decoration: none; }
+      .tabBar .linkBar .linkTab :hover {
+        height: 25%; }
+    .tabBar .linkBar .onSite {
+      background-color: #91AA9D; }
 
 /*# sourceMappingURL=scss.css.map */

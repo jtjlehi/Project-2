@@ -20,3 +20,19 @@ $darkBlue: #193441;
 //font variables
 $headText: 'OswaldLight', sans-serif;
 $bodyText: 'Roboto', sans-serif;
+//mixin
+@mixin center{
+  margin: 0 auto;
+  width: 80%;
+}
+@mixin flex($justify, $align){
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}
+@mixin font($color, $family, $size){
+  color: $color;
+  font-family: $family;
+  font-size: $size;
+  text-decoration: none;
+}

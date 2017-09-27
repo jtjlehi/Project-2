@@ -1,4 +1,5 @@
 .hBody{
+  @include center();
   position: relative;
   border: solid $darkBlue 1px;
   right: 0;
