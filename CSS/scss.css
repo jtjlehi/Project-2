@@ -16,5 +16,27 @@ body {
   height: 100%;
   width: 100%;
   background-color: #FCFFF5; }
+  body .content {
+    height: 100%;
+    width: 100%; }
+    body .content .centerElement {
+      margin: 0 auto;
+      width: 80%; }
+
+.hBody {
+  position: relative;
+  border: solid #193441 1px;
+  right: 0;
+  left: 0; }
+  .hBody .hTitle {
+    background-image: url("../images/babyMassage.jpeg");
+    background-size: cover;
+    padding: 20px 10px;
+    height: 350px; }
+    .hBody .hTitle h1 {
+      font-family: "OswaldLight", sans-serif;
+      color: #193441;
+      font-size: 60px;
+      margin: 0; }
 
 /*# sourceMappingURL=scss.css.map */
