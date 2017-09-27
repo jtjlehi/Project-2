@@ -1,0 +1,22 @@
+//font links
+@font-face {
+  font-family: 'Oswald';
+  src: url('../fonts/Oswald/Oswald-Light.ttf');
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto/Roboto-Regular.ttf')
+}
+@font-face {
+  font-family: 'OswaldLight';
+  src: url('../fonts/Oswald/Oswald-Light.ttf')
+}
+//color variables
+$white: #FCFFF5;
+$lightGreen: #D1DBBD;
+$green: #91AA9D;
+$blue: #3E606F;
+$darkBlue: #193441;
+//font variables
+$headText: 'OswaldLight', sans-serif;
+$bodyText: 'Roboto', sans-serif;
