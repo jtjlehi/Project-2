@@ -2,3 +2,14 @@
 @import "Content.css";
 @import "navBar.css";
 @import "style.css";
+$white: #FCFFF5;
+$lightGreen: #D1DBBD;
+$green: #91AA9D;
+$blue: #3E606F;
+$darkBlue: #193441;
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-color: $white;
+}

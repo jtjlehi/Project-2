@@ -2,5 +2,10 @@
 @import url(Content.css);
 @import url(navBar.css);
 @import url(style.css);
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #FCFFF5; }
 
 /*# sourceMappingURL=scss.css.map */
