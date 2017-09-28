@@ -1,5 +1,6 @@
 @import url(book.css);
 @import url(Content.css);
+@import url(navBar.css);
 @import url(style.css);
 @font-face {
   font-family: 'Oswald';
@@ -28,27 +29,32 @@ a {
   position: relative;
   border: solid #193441 1px;
   right: 0;
-  left: 0; }
+  left: 0;
+  top: 50px; }
   .hBody .hTitle {
     background-image: url("../images/babyMassage.jpeg");
     background-size: cover;
     padding: 20px 10px;
     height: 350px; }
     .hBody .hTitle h1 {
-      font-family: "OswaldLight", sans-serif;
       color: #193441;
+      font-family: "OswaldLight", sans-serif;
       font-size: 60px;
+      text-decoration: none;
       margin: 0; }
 
 .tabBar {
-  margin: 0 auto;
-  width: 80%;
   display: flex;
   justify-content: space-between;
   align-items: none;
   background-color: #3E606F;
   border: solid 1px #193441;
-  height: 50px; }
+  height: 50px;
+  width: 80%;
+  left: 10%;
+  right: 10%;
+  position: fixed;
+  z-index: 2; }
   .tabBar .logo {
     height: 100%;
     width: 10%; }

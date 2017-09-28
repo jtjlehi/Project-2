@@ -4,15 +4,14 @@
   border: solid $darkBlue 1px;
   right: 0;
   left: 0;
+  top: 50px;
   .hTitle{
     background-image: url("../images/babyMassage.jpeg");
     background-size: cover;
     padding: 20px 10px;
     height: 350px;
     h1{
-      font-family: $headText;
-      color: $darkBlue;
-      font-size: 60px;
+      @include font($darkBlue, $headText, $bigText);
       margin: 0;
     }
   }

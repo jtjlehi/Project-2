@@ -20,6 +20,11 @@ $darkBlue: #193441;
 //font variables
 $headText: 'OswaldLight', sans-serif;
 $bodyText: 'Roboto', sans-serif;
+$bigText: 60px;
+$mdText: 36px;
+$smallText: 23px;
+$tinyText: 10px;
+$buttonText: 26px;
 //mixin
 @mixin center{
   margin: 0 auto;
@@ -35,4 +40,8 @@ $bodyText: 'Roboto', sans-serif;
   font-family: $family;
   font-size: $size;
   text-decoration: none;
+}
+@mixin size($height, $width){
+  height: $height;
+  width: $width;
 }

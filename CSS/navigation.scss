@@ -1,23 +1,24 @@
 .tabBar{
-  @include center();
   @include flex(space-between, none);
   background-color: $blue;
   border: solid 1px $darkBlue;
-  height: 50px;
+  @include size(50px, 80%);
+  left: 10%;
+  right: 10%;
+  position: fixed;
+  z-index: 2;
   .logo{
-    height: 100%;
-    width: 10%;
+    @include size(100%, 10%);
   }
   .linkBar{
     @include flex(space-between, center);
     width: 80%;
     overflow: hidden;
     .linkTab{
-      height: 100%;
-      width: 20%;
+      @include size(100%, 20%);
       border-left: 1px solid $darkBlue;
       @include flex(center, center);
-      @include font($white, $headText, 26px);
+      @include font($white, $headText, $buttonText);
       :hover{
         height: 25%;
       }
