@@ -6,13 +6,13 @@
     <title>Infinite Health and Wellness|Home</title>
     <!--<link rel="stylesheet" type="text/css" href="CSS/scss.css">-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.teal-indigo.min.css" />
-    <script defer src="mdl/"></script>
+    <link rel="stylesheet" href="mdl/material.min.css" />
+    <script defer src="mdl/material.min.js"></script>
     <link rel="icon" href="images/bonsai-tree-stencil-1.png">
 </head>
 <body>
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-    <header class="mdl-layout__header">
+    <header class="mdl-layout__header mdl-shadow--5dp">
         <div class="mdl-layout__header-row mdl-layout__header--fixed">
             <!-- Title -->
             <span class="mdl-layout-title">Infinite Health and Wellness</span>
@@ -33,32 +33,36 @@
         </nav>
     </div>
     <main class="mdl-layout__content mdl-grid">
-        <div class="mdl-cell mdl-cell--12-col">
+        <div class="mdl-cell mdl-cell--12-col mdl-shadow--3dp">
             <img src="images/babyMassage.jpeg">
         </div>
         <div class="mdl-cell"></div>
         <div class="mdl-cell">
-            <div class="mdl-card">
-                <div class="mdl-card__title">Our Story</div>
+            <div class="mdl-card mdl-shadow--3dp">
+                <div class="mdl-card__title">
+                    <h2 class="mdl-card__title-text">Our Story</h2>
+                </div>
                 <div class="mdl-card__media">
                     <img src="images/womenMassage.jpeg" alt="the back of a women getting a message">
                 </div>
                 <div class="mdl-card__supporting-text">
                     Come and hear the amazing story behind Infinite Health and Wellness.
                 </div>
-                <div class="mdl-card__actions">Click to Learn More</div>
+                <div class="mdl-card__actions">
+                    <a href="aboutUs.html">Click to Learn More</a>
+                </div>
             </div>
         </div>
         <div class="mdl-cell"></div>
     </main>
-    <footer class="mdl-mini-footer">
+    <footer class="mdl-mini-footer mdl-shadow--5dp">
         <div class="mdl-mini-footer__left-section">
             <div class="mdl-logo">Infinite Health and Wellness</div>
         </div>
-        <div class="mdl-mini-footer__left-section">
+        <div class="mdl-mini-footer__right-section">
             <ul class="mdl-mini-footer__link-list">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Story</a></li>
+                <li><a href="aboutUs.html">Story</a></li>
             </ul>
         </div>
     </footer>
