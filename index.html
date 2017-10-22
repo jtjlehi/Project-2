@@ -4,77 +4,64 @@
     <meta name="veiwport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <title>Infinite Health and Wellness|Home</title>
-    <link rel="stylesheet" type="text/css" href="CSS/scss.css">
+    <!--<link rel="stylesheet" type="text/css" href="CSS/scss.css">-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
-    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.teal-indigo.min.css" />
+    <script defer src="mdl/"></script>
     <link rel="icon" href="images/bonsai-tree-stencil-1.png">
 </head>
 <body>
-<div class="content">
-    <div class="tabBar">
-            <img src="images/bonsai-tree-stencil-1.png" alt="logo" class="logo">
-        <div class="linkBar">
-            <a href="index.html" class="linkTab onSite">
-                <span>Home</span>
-            </a>
-            <a href="aboutUs.html" class="linkTab">
-                <span>About Us</span>
-            </a>
-            <a href="services.html" class="linkTab">
-                <span>Services</span>
-            </a>
-            <a href="bookNow.html" class="linkTab">
-                <span>Book Now</span>
-            </a>
-            <a href="contactUs.html" class="linkTab">
-                <span>Contact Us</span>
-            </a>
-        </div>
-    </div>
-    <header class="hBody">
-        <div class="hTitle">
-            <h1>Infinite Health and Wellness</h1>
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row mdl-layout__header--fixed">
+            <!-- Title -->
+            <span class="mdl-layout-title">Infinite Health and Wellness</span>
+            <!-- Add spacer, to align navigation to the right -->
+            <div class="mdl-layout-spacer"></div>
+            <!-- Navigation. We hide it in small screens. -->
+            <nav class="mdl-navigation mdl-layout--large-screen-only">
+                <a class="mdl-navigation__link" href="index.html">Home</a>
+                <a class="mdl-navigation__link" href="aboutUs.html">About Us</a>
+            </nav>
         </div>
     </header>
-    <div class="contentBody centerElement">
-        <!--About Us-->
-        <div class="infoBar">
-            <div class="landingBtn">
-                <a href="aboutUs.html">Learn More About Us</a>
-            </div>
-        </div>
-        <div class="imgSeparator">
-            <img src="images/waiter.jpg" alt="Male Waiter Gesturing to come into the screen.">
-        </div>
-        <!--Services-->
-        <div class="infoBar">
-            <div class="landingBtn">
-                <a href="services.html">Learn More About Our Services</a>
-            </div>
-        </div>
-        <div class="imgSeparator">
-            <img src="images/Computer-in-shopping-cart.jpg" alt="computer in shopping cart.">
-        </div>
-        <!--Book Now-->
-        <div class="infoBar">
-            <div class="landingBtn">
-                <a href="bookNow.html">Book Online</a>
-            </div>
-        </div>
+    <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Infinite Health and Wellness</span>
+        <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" href="index.html">Home</a>
+            <a class="mdl-navigation__link" href="aboutUs.html">About Us</a>
+        </nav>
     </div>
-    <div class="footer centerElement">
-        <div class="footerCol">
-                <span class="footElement"><a href="contactUs.html">Contact Us</a></span>
-                <span class="footElement">Shelly Bowen Received her Certification from Utah College of Massage Therapy.</span> <!--TODO: find out where she was certified from-->
-                <span class="footElement">This Domain is property of Brad Bowen</span>
+    <main class="mdl-layout__content mdl-grid">
+        <div class="mdl-cell mdl-cell--12-col">
+            <img src="images/babyMassage.jpeg">
         </div>
-        <div class="footerCol">
-            <span class="footElement">This Website was Created By Jared Jacobson</span>
-            <span class="footElement">For Website Services visit <a href="invalid.html" target="_blank">His Website</a></span> <!--TODO: link to my portfolio.-->
-            <span class="footElement">For Products Related To Health and Wellness Visit <a href="https://desbio.com/" target="_blank">Deseret Biological</a></span>
+        <div class="mdl-cell"></div>
+        <div class="mdl-cell">
+            <div class="mdl-card">
+                <div class="mdl-card__title">Our Story</div>
+                <div class="mdl-card__media">
+                    <img src="images/womenMassage.jpeg" alt="the back of a women getting a message">
+                </div>
+                <div class="mdl-card__supporting-text">
+                    Come and hear the amazing story behind Infinite Health and Wellness.
+                </div>
+                <div class="mdl-card__actions">Click to Learn More</div>
+            </div>
         </div>
-    </div>
+        <div class="mdl-cell"></div>
+    </main>
+    <footer class="mdl-mini-footer">
+        <div class="mdl-mini-footer__left-section">
+            <div class="mdl-logo">Infinite Health and Wellness</div>
+        </div>
+        <div class="mdl-mini-footer__left-section">
+            <ul class="mdl-mini-footer__link-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Story</a></li>
+            </ul>
+        </div>
+    </footer>
 </div>
 </body>
 </html>
